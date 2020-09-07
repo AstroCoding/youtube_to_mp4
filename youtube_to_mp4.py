@@ -39,3 +39,4 @@ try:
         exit(0)
 except EOFError as err:
     print(err)
+    exit(1)
